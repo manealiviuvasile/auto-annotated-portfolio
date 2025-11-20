@@ -1,38 +1,91 @@
 ---
 type: PageLayout
-title: About Us
+title: About & Contact
 colors: colors-a
----
+backgroundImage:
+  type: BackgroundImage
+  url: /images/bg2.jpg
+  backgroundSize: cover
+  backgroundPosition: center
+  backgroundRepeat: no-repeat
+  opacity: 75
+sections:
+  - elementId: about-hero
+    colors: colors-f
+    backgroundSize: full
+    title: >-
+      RASCA GROUP
+    subtitle: >-
+      (EN) Electrical Installations & Professional Cleaning in the Netherlands and Belgium.  
+      (NL) Elektrische installaties & professionele schoonmaak in Nederland en België.
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-0
+          - mb-0
 
-# About RASCA GROUP
+  - elementId: about-text
+    colors: colors-a
+    title: >-
+      About us / Over ons
+    subtitle: >-
+      (EN) RASCA GROUP is a flexible company focused on two core activities:
+      electrical installations and professional cleaning.  
+      (NL) RASCA GROUP is een flexibel bedrijf met twee kerntaken:
+      elektrische installaties en professionele schoonmaak.
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-8
+          - mb-0
+    text: >-
+      **EN**  
+      We work for private clients and companies and always look for
+      practical solutions: safe electrical installations and clean, tidy
+      buildings. We can combine both services on the same project so you only
+      need one contact person.  
 
-RASCA GROUP is a modern and reliable services company specializing in **Electrical Installations** and **Professional Cleaning Services**.  
-We combine technical expertise, attention to detail, and customer-oriented solutions to deliver high–quality work for both residential and commercial clients.
+      **NL**  
+      Wij werken voor particulieren en bedrijven en zoeken altijd naar
+      praktische oplossingen: veilige elektrische installaties en nette,
+      opgeruimde gebouwen. We kunnen beide diensten combineren op één project,
+      zodat u maar één aanspreekpunt hebt.
 
-## Electrical Installation Services
-- Complete residential and industrial wiring  
-- Troubleshooting & repairs  
-- Installation of electrical panels  
-- New construction & renovation projects  
-- Lighting systems & energy–efficient solutions  
-- EV charging installation (Wallbox)
+  - elementId: contact
+    colors: colors-f
+    title: >-
+      Contact / Contacteer ons
+    subtitle: >-
+      (EN) Do you have a project or question? Send us an e-mail or request a callback.  
+      (NL) Hebt u een project of vraag? Stuur ons een e-mail of vraag een terugbelverzoek.
+    styles:
+      self:
+        height: auto
+        width: wide
+        margin:
+          - mt-8
+          - mb-0
+    items:
+      - title: Contact details / Contactgegevens
+        text: >-
+          **E-mail:** info@rascagroup.nl  
+          **Phone / Telefoon:** +31 … (vul aici numărul când îl ai)  
 
-## Professional Cleaning Services
-- Office cleaning  
-- Residential cleaning  
-- Deep cleaning  
-- Construction site cleaning  
-- Commercial spaces maintenance  
-- Regular or one-time cleaning services
+          **EN**  
+          Service area: Netherlands and Belgium.  
 
-## Why Choose Us
-- High–quality work  
-- Reliable and professional team  
-- Fast response time  
-- Transparent and fair pricing  
-- Customer satisfaction guaranteed  
+          **NL**  
+          Werkgebied: Nederland en België.
+      - title: Working hours / Werkuren
+        text: >-
+          **EN**  
+          Monday–Friday: 08:00 – 18:00  
+          Saturday: on request  
 
-At RASCA GROUP, we believe that every project deserves dedication, precision, and professionalism.  
-We work with respect, efficiency, and full responsibility—always delivering the results our clients expect.
-
-Contact us today to learn how we can support your project.
+          **NL**  
+          Maandag–vrijdag: 08:00 – 18:00  
+          Zaterdag: op aanvraag.
