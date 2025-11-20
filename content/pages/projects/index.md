@@ -1,109 +1,103 @@
----
-type: ProjectFeedLayout
-title: Projects
+type: PageLayout
+title: Services
 colors: colors-a
 backgroundImage:
-  type: BackgroundImage
-  url: /images/bg1.jpg
-  backgroundSize: cover
-  backgroundPosition: center
-  backgroundRepeat: no-repeat
-  opacity: 50
-projectFeed:
-  type: ProjectFeedSection
-  colors: colors-f
-  showDate: false
-  showDescription: true
-  showReadMoreLink: true
-  showFeaturedImage: true
-  variant: variant-a
-  styles:
-    self:
-      width: narrow
-      padding:
-        - pt-0
-        - pl-4
-        - pr-4
-        - pb-12
-topSections:
-  - type: HeroSection
-    title: Projects
-    subtitle: ''
-    actions: []
-    colors: colors-f
-    backgroundSize: full
-    elementId: ''
-    styles:
-      self:
-        height: auto
-        width: narrow
-        padding:
-          - pt-16
-          - pb-16
-          - pl-4
-          - pr-4
-        flexDirection: row
-        textAlign: left
-bottomSections:
-  - type: ContactSection
-    backgroundSize: full
-    title: "Let’s talk... \U0001F4AC"
-    colors: colors-f
-    form:
-      type: FormBlock
-      elementId: sign-up-form
-      fields:
-        - name: firstName
-          label: First Name
-          hideLabel: true
-          placeholder: First Name
-          isRequired: true
-          width: 1/2
-          type: TextFormControl
-        - name: lastName
-          label: Last Name
-          hideLabel: true
-          placeholder: Last Name
-          isRequired: false
-          width: 1/2
-          type: TextFormControl
-        - name: email
-          label: Email
-          hideLabel: true
-          placeholder: Email
-          isRequired: true
-          width: full
-          type: EmailFormControl
-        - name: message
-          label: Message
-          hideLabel: true
-          placeholder: Tell me about your project
-          isRequired: true
-          width: full
-          type: TextareaFormControl
-        - name: updatesConsent
-          label: Sign me up to recieve my words
-          isRequired: false
-          width: full
-          type: CheckboxFormControl
-      submitLabel: "Submit \U0001F680"
-      styles:
-        self:
-          textAlign: center
-    styles:
-      self:
-        height: auto
-        width: narrow
-        margin:
-          - mt-0
-          - mb-0
-          - ml-4
-          - mr-4
-        padding:
-          - pt-24
-          - pb-24
-          - pr-4
-          - pl-4
-        flexDirection: row
-        textAlign: left
----
+type: BackgroundImage
+url: /images/bg1.jpg
+backgroundSize: cover
+backgroundPosition: center
+backgroundRepeat: no-repeat
+opacity: 75
+sections:
+	•	elementId: services-hero
+colors: colors-f
+backgroundSize: full
+title: >-
+RASCA GROUP – Electrical Installations & Professional Cleaning
+subtitle: >-
+(EN) We offer reliable electrical and cleaning services for homes, offices
+and industrial buildings in the Netherlands and Belgium.
+(NL) Wij bieden betrouwbare elektrische installaties en professionele
+schoonmaakdiensten voor woningen, kantoren en industriële gebouwen in
+Nederland en België.
+styles:
+self:
+height: auto
+width: wide
+margin:
+- mt-0
+- mb-0
+	•	elementId: services-list
+colors: colors-a
+title: >-
+Services / Diensten
+subtitle: >-
+(EN) Two core activities: Electrical Installations and Cleaning.
+(NL) Twee kernactiviteiten: Elektrische installaties en Schoonmaak.
+styles:
+self:
+height: auto
+width: wide
+margin:
+- mt-8
+- mb-0
+items:
+	•	title: >-
+Electrical Installations / Elektrische installaties
+text: >-
+(EN) New installations, renovations, troubleshooting, distribution
+boards, lighting, sockets, data cabling.
+(NL) Nieuwe installaties, renovaties, storingen, verdeelborden,
+verlichting, stopcontacten, databekabeling.
+	•	title: >-
+Cleaning Services / Schoonmaakdiensten
+text: >-
+(EN) Regular cleaning, deep cleaning after renovation, offices,
+stairwells, apartments and houses.
+(NL) Periodieke schoonmaak, eindschoonmaak na verbouwing, kantoren,
+traphallen, appartementen en huizen.
+	•	elementId: packages
+colors: colors-f
+title: >-
+Packages / Pakketten
+subtitle: >-
+(EN) Simple structure: Basic, Professional, Premium.
+(NL) Eenvoudige structuur: Basic, Professional, Premium.
+styles:
+self:
+height: auto
+width: wide
+margin:
+- mt-8
+- mb-0
+plans:
+	•	title: Basic
+subtitle: >-
+Start
+price: B
+description: >-
+(EN) For small jobs and quick interventions.
+(NL) Voor kleine werken en snelle interventies.
+features:
+	•	(EN) Hourly rate agreed per project. (NL) Uurtarief volgens afspraak.
+	•	(EN) Small repairs & minor installations. (NL) Kleine herstellingen & beperkte installaties.
+	•	title: Professional
+subtitle: >-
+Business
+price: Pro
+description: >-
+(EN) For companies that need regular support.
+(NL) Voor bedrijven die vaste ondersteuning nodig hebben.
+features:
+	•	(EN) Combination of electrical work and cleaning. (NL) Combinatie van elektriciteit en schoonmaak.
+	•	(EN) Monthly planning and reporting. (NL) Maandelijkse planning en rapport.
+	•	title: Premium
+subtitle: >-
+All-in
+price: Premium
+description: >-
+(EN) Full service for projects and large buildings.
+(NL) Volledige service voor projecten en grote gebouwen.
+features:
+	•	(EN) Priority interventions. (NL) Prioritaire interventies.
+	•	(EN) Dedicated contact person. (NL) Vaste contactpersoon.
